@@ -3,7 +3,11 @@ module github.com/cntechpower/docker-registry-cleaner
 go 1.14
 
 require (
-	github.com/cntechpower/job v0.0.0-20210111155312-4d76f95af170
-	github.com/cntechpower/utils v0.0.0-20210114162751-4711c3f01d0b
 	github.com/docker/distribution v2.7.1+incompatible
+	github.com/docker/go-metrics v0.0.1 // indirect
+	github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7 // indirect
+	github.com/gorilla/mux v1.8.0 // indirect
+	github.com/opencontainers/go-digest v1.0.0 // indirect
+	github.com/opencontainers/image-spec v1.0.1 // indirect
+	github.com/sirupsen/logrus v1.8.1 // indirect
 )
